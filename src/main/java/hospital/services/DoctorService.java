@@ -26,6 +26,12 @@ public class DoctorService {
         List<Doctor> foundDoctor = doctorRepo.findAll();
         return foundDoctor;
     }
+    
+     public Optional<Doctor> findByName(String name) {
+        Optional<Doctor> foundDoctor = doctorRepo.findByName(name);
+        return foundDoctor;
+    }
+
 
     public Optional<Doctor> createDoctor(DoctorDTO doctorDto) {
         Doctor convertedData = convertEntityToDto(doctorDto);

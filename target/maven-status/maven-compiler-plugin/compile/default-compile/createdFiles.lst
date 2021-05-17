@@ -3,5 +3,6 @@ hospital/repositories/DoctorRepository.class
 hospital/Contact.class
 hospital/SwaggerConfig.class
 hospital/domain/Doctor.class
+hospital/dto/DoctorDTO.class
 hospital/services/DoctorService.class
 hospital/controllers/DoctorController.class
