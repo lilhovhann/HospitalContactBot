@@ -1,5 +1,8 @@
 /home/lilith/NetBeansProjects/hospital_contact/src/main/java/hospital/Contact.java
+/home/lilith/NetBeansProjects/hospital_contact/src/main/java/hospital/controllers/DoctorController.java
 /home/lilith/NetBeansProjects/hospital_contact/src/main/java/hospital/domain/Doctor.java
 /home/lilith/NetBeansProjects/hospital_contact/src/main/java/hospital/Bot.java
 /home/lilith/NetBeansProjects/hospital_contact/src/main/java/hospital/repositories/DoctorRepository.java
+/home/lilith/NetBeansProjects/hospital_contact/src/main/java/hospital/SwaggerConfig.java
+/home/lilith/NetBeansProjects/hospital_contact/src/main/java/hospital/dto/DoctorDTO.java
 /home/lilith/NetBeansProjects/hospital_contact/src/main/java/hospital/services/DoctorService.java

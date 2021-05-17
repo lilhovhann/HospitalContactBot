@@ -1,5 +1,6 @@
-package hospital.domain;
+package hospital.dto;
 
+import hospital.domain.*;
 import java.io.Serializable;
 import lombok.AllArgsConstructor;
 
@@ -20,14 +21,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @EqualsAndHashCode
 @AllArgsConstructor
 @NoArgsConstructor
-@Document(collection = "doctors")
-public class Doctor implements Serializable {
+public class DoctorDTO{
 
-    private static final long serialVersionUID = 5457306871064654513L;
-
-    @Id
-    private String id;
-    
     private String name;
     private String proffession;
     private String phone;
