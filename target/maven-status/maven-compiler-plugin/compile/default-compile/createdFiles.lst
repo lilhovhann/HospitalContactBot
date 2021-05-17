@@ -1,0 +1,5 @@
+hospital/Bot.class
+hospital/repositories/DoctorRepository.class
+hospital/Contact.class
+hospital/services/DoctorService.class
+hospital/domain/Doctor.class
